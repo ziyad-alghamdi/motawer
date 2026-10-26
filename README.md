@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Motawer
+
+Motawer is a modern real estate concept design platform that helps users transform basic land information and residential requirements into an initial architectural concept.
+
+## Live Demo
+
+https://motawer-amber.vercel.app/
+
+## Overview
+
+Motawer simplifies the early stages of residential planning by guiding users through a clear and structured workflow.
+
+Users can enter their land dimensions, define their project requirements, choose preferred spaces and privacy levels, and then review multiple design concepts before viewing a preliminary 2D floor plan.
+
+The current version is a lightweight prototype focused on usability, speed, and clean interface design.
+
+## Key Features
+
+- Clean and modern user interface
+- Land dimension and location input
+- Floor, bedroom, and parking configuration
+- Additional space selection
+- Kitchen type selection
+- Privacy preference
+- Multiple design concepts
+- Preliminary 2D floor plan
+- Final project summary
+- Local browser storage using `localStorage`
+- Responsive layout
+- Deployed publicly on Vercel
+
+## Design Concepts
+
+Motawer currently provides three concept styles:
+
+- Privacy Focused
+- Open Space
+- Efficient Space Utilization
+
+Each option presents a different approach to organizing the available space.
+
+## User Flow
+
+```text
+Home
+↓
+Project Information
+↓
+Project Details
+↓
+Project Summary
+↓
+Design Options
+↓
+2D Floor Plan
+↓
+Final Design
+```
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- LocalStorage
+- Vercel
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/ziyad-alghamdi/motawer.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd motawer
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Status
 
-## Learn More
+Motawer is currently an early-stage prototype.
 
-To learn more about Next.js, take a look at the following resources:
+The floor plans in the current version are conceptual visual layouts and are not engineering-approved architectural drawings.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Planned improvements may include:
 
-## Deploy on Vercel
+- AI-assisted requirement analysis
+- Dynamic floor-plan generation
+- Smarter spatial optimization
+- Building regulation constraints
+- 3D visualization
+- Saved project dashboard
+- Export options
+- Support for additional property types
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Live Demo:  
+https://motawer-amber.vercel.app/
+
+Repository:  
+https://github.com/ziyad-alghamdi/motawer
+
+## Author
+
+Ziyad Alghamdi
